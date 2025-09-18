@@ -8,5 +8,10 @@ I am a Computer Science major and future Cybersecurity Specialist who is well sk
 - Conducted a mock security audit for a fictional small business as part of Google’s Cybersecurity Professional Certificate.
 - Covered areas such as asset identification, risk assessment, and security controls.
 - [View Audit Report](projects/security-audit.md)
+
+# 2. Network Traffic Analysis & Incident Report
+- Analyzed packet captures to identify suspicious activity in a simulated network environment.
+- Documented findings in a professional incident report format, including attack vector and recommendations.
+- [View Report](projects/network-traffic-analysis.pdf)
   
 # cybersecurity-portfolio
