@@ -14,4 +14,10 @@ I am a Computer Science major and future Cybersecurity Specialist who is well sk
 - Documented findings in a professional incident report format, including attack vector and recommendations.
 - [View Report](projects/network-traffic-analysis.pdf)
   
+# 3. Incident Handler’s Journal  
+- Documented a cybersecurity incident through an **incident handler’s journal**.  
+- Recorded detection, analysis, response actions, and recovery steps.  
+- **Skills used:** Incident response, documentation, analysis.  
+- [View Journal](projects/incident-handlers-journal/incident-handlers-journal.pdf)  
+
 # cybersecurity-portfolio
