@@ -20,4 +20,16 @@ I am a Computer Science major and future Cybersecurity Specialist who is well sk
 - **Skills used:** Incident response, documentation, analysis.  
 - [View Journal](projects/incident-handlers-journal/incident-handlers-journal.pdf)  
 
-# cybersecurity-portfolio
+# 4. Log File Analyzer (Cybersecurity Portfolio Project)
+This project analyzes server/system log files to detect suspicious activities such as:
+- Brute-force login attempts
+- Access to sensitive files (e.g., `/etc/passwd`)
+- SQL injection attempts
+
+It was built as part of my cybersecurity portfolio after completing the **Google Cybersecurity Professional Certificate**.
+
+# Features
+- Regex-based detection of suspicious log entries
+- Extracts timestamps & IP addresses
+- Generates CSV reports for easy review
+- Includes sample logs for testing
