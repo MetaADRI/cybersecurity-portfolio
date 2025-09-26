@@ -33,3 +33,4 @@ It was built as part of my cybersecurity portfolio after completing the **Google
 - Extracts timestamps & IP addresses
 - Generates CSV reports for easy review
 - Includes sample logs for testing
+  [view project](projects/log-analyzer)
