@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { User, Mail, MapPin, GraduationCap, Briefcase, ExternalLink } from 'lucide-react';
+import { User, Mail, MapPin, GraduationCap, Briefcase, Phone } from 'lucide-react';
 import { SiGithub } from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
 
@@ -28,7 +28,7 @@ export default function About() {
           </div>
 
           <div className="space-y-2">
-            <h2 className="text-xl font-bold text-white">Cybersecurity Analyst</h2>
+            <h2 className="text-xl font-bold text-white">Bwalya Adrian Mange</h2>
             <p className="text-sm text-cyber-green font-mono">OPEN TO OPPORTUNITIES</p>
           </div>
 
@@ -50,11 +50,15 @@ export default function About() {
             </div>
             <div className="flex items-center gap-2 text-xs text-cyber-muted">
               <MapPin className="w-4 h-4 text-cyber-orange" />
-              <span>Available for Remote & On-site</span>
+              <span>Lusaka, Zambia</span>
+            </div>
+            <div className="flex items-center gap-2 text-xs text-cyber-muted">
+              <Phone className="w-4 h-4 text-cyber-blue" />
+              <span>+260 96274 6692</span>
             </div>
             <div className="flex items-center gap-2 text-xs text-cyber-muted">
               <Mail className="w-4 h-4 text-cyber-purple" />
-              <span>Contact via LinkedIn</span>
+              <span>adrianmange00@gmail.com</span>
             </div>
           </div>
         </div>
@@ -90,16 +94,16 @@ export default function About() {
         className="bg-cyber-card border border-cyber-border rounded-xl p-6"
       >
         <h3 className="text-sm font-bold text-white mb-3">Let's Connect</h3>
-        <div className="flex gap-3">
-          <a href="#" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-green/30 transition-colors">
+        <div className="flex flex-wrap gap-3">
+          <a href="https://github.com/MetaADRI" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-green/30 transition-colors">
             <SiGithub className="w-4 h-4" />
             GitHub
           </a>
-          <a href="#" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-blue/30 transition-colors">
+          <a href="https://linkedin.com/in/bwalya-adrian-mange-4101a8396" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-blue/30 transition-colors">
             <FaLinkedinIn className="w-4 h-4" />
             LinkedIn
           </a>
-          <a href="#" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-purple/30 transition-colors">
+          <a href="mailto:adrianmange00@gmail.com" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-purple/30 transition-colors">
             <Mail className="w-4 h-4" />
             Email
           </a>
