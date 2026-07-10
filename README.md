@@ -1,20 +1,19 @@
 # Cybersecurity Portfolio
 
-> Interactive security dashboard portfolio — built with React, Tailwind CSS, and Vite.
+> React-based cybersecurity portfolio featuring an interactive log analysis tool.
 
 ## Live Demo
 
-**[View Portfolio →](https://yourusername.github.io/cybersecurity-portfolio/)**
+**[View Portfolio →](https://adrian106293.netlify.app/)**
 
 ## Features
 
-- **Security Dashboard** — Animated stats, threat charts, and a live terminal simulation
-- **Interactive Log Analyzer** — Upload or paste logs, detect brute-force/SQLi/file access threats, export CSV reports
-- **Project Showcase** — Security audit, network analysis, incident response, and Python tools
-- **Skills Matrix** — Visual skill bars across security, technical, and soft skills
-- **Incident Response Timeline** — NIST IR lifecycle walkthrough with animated phases
-- **Threat Intelligence Panel** — Simulated live threat data with severity ratings
-- **Dark Cyber Theme** — Neon green/blue accents, terminal aesthetics, grid background
+- **Security Dashboard** — Overview page with stat cards, charts, and threat data visualizations (demo data)
+- **Interactive Log Analyzer** — Paste or upload log files to detect brute-force attempts, SQL injection, and suspicious file access. View results in a table and export as CSV
+- **Project Showcase** — Cards for each project with stats, tags, and in-browser PDF viewing
+- **Skills Display** — Skill bars organized by category (security, technical, soft skills)
+- **Incident Response Timeline** — Visual walkthrough of the NIST IR lifecycle from the Incident Handler's Journal project
+- **About & Contact** — Profile, certifications, and contact links
 
 ## Tech Stack
 
@@ -35,7 +34,7 @@ npm run dev
 
 ## Deployment
 
-Push to `main` branch — GitHub Actions auto-deploys to GitHub Pages.
+Deployed on Vercel. Push to `main` to auto-deploy.
 
 ## Projects Included
 
