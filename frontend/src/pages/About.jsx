@@ -33,7 +33,7 @@ export default function About() {
           </div>
 
           <p className="text-sm text-cyber-text leading-relaxed">
-            Computer Science major and aspiring Cybersecurity Specialist with hands-on experience in IT support,
+            Computing Science major and aspiring Cybersecurity Specialist with hands-on experience in IT support,
             troubleshooting, and system security. Certified through Google's Cybersecurity and IT Support Professional
             Certificates. Passionate about defending organizations against digital threats and building secure systems
             that enable communities to thrive in the digital era.
@@ -42,7 +42,7 @@ export default function About() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
             <div className="flex items-center gap-2 text-xs text-cyber-muted">
               <GraduationCap className="w-4 h-4 text-cyber-blue" />
-              <span>Computer Science Major</span>
+              <span>Computing Science Major</span>
             </div>
             <div className="flex items-center gap-2 text-xs text-cyber-muted">
               <Briefcase className="w-4 h-4 text-cyber-green" />
