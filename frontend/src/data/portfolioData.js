@@ -1,0 +1,148 @@
+export const projects = [
+  {
+    id: 'security-audit',
+    title: 'Security Audit',
+    subtitle: 'Google Cybersecurity Certificate — Course 2',
+    description: 'Conducted a comprehensive mock security audit for a fictional small business. Covered asset identification, risk assessment, vulnerability analysis, and security control recommendations.',
+    tags: ['Risk Assessment', 'Asset Inventory', 'Security Controls', 'Compliance'],
+    severity: 'high',
+    icon: 'Shield',
+    color: 'green',
+    stats: { assets: 47, risks: 12, controls: 23 },
+    pdf: '/projects/Security Audit.pdf',
+    details: [
+      { label: 'Scope', value: 'Full infrastructure audit' },
+      { label: 'Assets Identified', value: '47' },
+      { label: 'Risks Found', value: '12' },
+      { label: 'Controls Recommended', value: '23' },
+      { label: 'Framework', value: 'NIST CSF' },
+    ],
+  },
+  {
+    id: 'network-analysis',
+    title: 'Network Traffic Analysis',
+    subtitle: 'Incident Report',
+    description: 'Analyzed packet captures to identify suspicious activity in a simulated network environment. Documented findings in a professional incident report format including attack vector analysis and remediation recommendations.',
+    tags: ['Wireshark', 'Packet Analysis', 'Incident Report', 'Network Forensics'],
+    severity: 'critical',
+    icon: 'Network',
+    color: 'red',
+    stats: { packets: '2.4M', suspicious: 847, timeline: '72h' },
+    pdf: '/projects/network-traffic-analysis.pdf',
+    details: [
+      { label: 'Packets Analyzed', value: '2.4 Million' },
+      { label: 'Suspicious Events', value: '847' },
+      { label: 'Attack Duration', value: '72 hours' },
+      { label: 'Tool Used', value: 'Wireshark' },
+      { label: 'Attack Type', value: 'Data Exfiltration' },
+    ],
+  },
+  {
+    id: 'incident-journal',
+    title: "Incident Handler's Journal",
+    subtitle: 'Full Incident Lifecycle',
+    description: 'Documented a complete cybersecurity incident through a structured incident handler\'s journal. Recorded detection, analysis, containment, eradication, and recovery steps following NIST IR procedures.',
+    tags: ['Incident Response', 'NIST IR', 'Documentation', 'Recovery'],
+    severity: 'high',
+    icon: 'BookOpen',
+    color: 'orange',
+    stats: { phases: 6, actions: 18, downtime: '4h' },
+    pdf: '/projects/incident-handlers-journal/incident-handlers-journal.pdf',
+    details: [
+      { label: 'IR Phases Covered', value: '6 of 6' },
+      { label: 'Response Actions', value: '18' },
+      { label: 'Mean Time to Contain', value: '2.3 hours' },
+      { label: 'Framework', value: 'NIST SP 800-61' },
+      { label: 'Incident Type', value: 'Ransomware' },
+    ],
+  },
+  {
+    id: 'log-analyzer',
+    title: 'Log File Analyzer',
+    subtitle: 'Python Security Tool',
+    description: 'Built a Python-based log analysis tool that detects brute-force attacks, SQL injection attempts, and unauthorized file access. Generates CSV reports for forensic review.',
+    tags: ['Python', 'Regex', 'Log Analysis', 'Threat Detection'],
+    severity: 'medium',
+    icon: 'Terminal',
+    color: 'blue',
+    stats: { patterns: 3, lines: '10K+', accuracy: '99.2%' },
+    pdf: null,
+    details: [
+      { label: 'Language', value: 'Python 3' },
+      { label: 'Detection Patterns', value: '3 categories' },
+      { label: 'Test Data', value: '10,000+ log lines' },
+      { label: 'Output Format', value: 'CSV Reports' },
+      { label: 'Dependencies', value: 'pandas, re' },
+    ],
+  },
+];
+
+export const skills = [
+  { name: 'SIEM', level: 75, category: 'security' },
+  { name: 'Network Security', level: 80, category: 'security' },
+  { name: 'Incident Response', level: 85, category: 'security' },
+  { name: 'Vulnerability Assessment', level: 70, category: 'security' },
+  { name: 'Python', level: 80, category: 'technical' },
+  { name: 'Linux', level: 85, category: 'technical' },
+  { name: 'Wireshark', level: 75, category: 'technical' },
+  { name: 'Nmap', level: 70, category: 'technical' },
+  { name: 'SQL', level: 65, category: 'technical' },
+  { name: 'Git', level: 70, category: 'technical' },
+  { name: 'IT Support', level: 90, category: 'soft' },
+  { name: 'Problem Solving', level: 85, category: 'soft' },
+  { name: 'Documentation', level: 80, category: 'soft' },
+  { name: 'Communication', level: 85, category: 'soft' },
+];
+
+export const certifications = [
+  { name: 'Google Cybersecurity Professional Certificate', issuer: 'Google', year: '2025', icon: 'Shield' },
+  { name: 'Google IT Support Professional Certificate', issuer: 'Google', year: '2024', icon: 'Headphones' },
+];
+
+export const threatData = [
+  { type: 'Brute Force', count: 2847, severity: 'high', countries: ['Russia', 'China', 'Brazil'] },
+  { type: 'SQL Injection', count: 1523, severity: 'critical', countries: ['USA', 'Germany', 'Netherlands'] },
+  { type: 'XSS Attack', count: 892, severity: 'medium', countries: ['India', 'Romania', 'Ukraine'] },
+  { type: 'Port Scan', count: 4201, severity: 'low', countries: ['China', 'USA', 'South Korea'] },
+  { type: 'Malware C2', count: 234, severity: 'critical', countries: ['Russia', 'Iran', 'North Korea'] },
+  { type: 'Phishing', count: 1102, severity: 'high', countries: ['Nigeria', 'USA', 'UK'] },
+];
+
+export const timelineEvents = [
+  {
+    phase: 'Preparation',
+    time: 'Day 0',
+    actions: ['Activated IR team', 'Established communication channels', 'Deployed monitoring tools'],
+    color: 'blue',
+  },
+  {
+    phase: 'Detection & Analysis',
+    time: 'Day 0 — Hour 2',
+    actions: ['SIEM alert triggered', 'Analyzed network traffic', 'Confirmed malware indicators'],
+    color: 'yellow',
+  },
+  {
+    phase: 'Containment',
+    time: 'Day 0 — Hour 4',
+    actions: ['Isolated affected systems', 'Blocked C2 IP addresses', 'Preserved forensic evidence'],
+    color: 'orange',
+  },
+  {
+    phase: 'Eradication',
+    time: 'Day 1',
+    actions: ['Removed malware artifacts', 'Patched exploited vulnerability', 'Reset compromised credentials'],
+    color: 'red',
+  },
+  {
+    phase: 'Recovery',
+    time: 'Day 2',
+    actions: ['Restored systems from clean backups', 'Verified system integrity', 'Gradual service restoration'],
+    color: 'green',
+  },
+  {
+    phase: 'Post-Incident',
+    time: 'Day 3+',
+    actions: ['Conducted lessons-learned meeting', 'Updated IR playbooks', 'Implemented additional monitoring'],
+    color: 'purple',
+  },
+];
