@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { User, Mail, MapPin, GraduationCap, Briefcase, Phone } from 'lucide-react';
+import { User, Mail, MapPin, GraduationCap, Briefcase, Phone, ExternalLink } from 'lucide-react';
 import { SiGithub } from 'react-icons/si';
 import { FaLinkedinIn } from 'react-icons/fa';
 
@@ -99,11 +99,15 @@ export default function About() {
             <SiGithub className="w-4 h-4" />
             GitHub
           </a>
-          <a href="https://linkedin.com/in/bwalya-adrian-mange-4101a8396" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-blue/30 transition-colors">
+          <a href="https://www.linkedin.com/in/bwalyaadrianmange4101a8396" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-blue/30 transition-colors">
             <FaLinkedinIn className="w-4 h-4" />
             LinkedIn
           </a>
-          <a href="mailto:adrianmange00@gmail.com" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-purple/30 transition-colors">
+          <a href="https://adrian106293.netlify.app/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-purple/30 transition-colors">
+            <ExternalLink className="w-4 h-4" />
+            Website
+          </a>
+          <a href="mailto:adrianmange00@gmail.com" className="flex items-center gap-2 text-xs px-4 py-2.5 rounded-lg bg-cyber-black border border-cyber-border text-cyber-muted hover:text-white hover:border-cyber-red/30 transition-colors">
             <Mail className="w-4 h-4" />
             Email
           </a>
