@@ -5,18 +5,18 @@ import { ArrowLeft, FileText, Download, ExternalLink } from 'lucide-react';
 const pdfFiles = {
   'security-audit': {
     title: 'Security Audit Report',
-    file: '/cybersecurity-portfolio/projects/Security%20Audit.pdf',
-    rawFile: '/projects/Security Audit.pdf',
+    file: './projects/Security%20Audit.pdf',
+    rawFile: './projects/Security Audit.pdf',
   },
   'network-analysis': {
     title: 'Network Traffic Analysis Report',
-    file: '/cybersecurity-portfolio/projects/network-traffic-analysis.pdf',
-    rawFile: '/projects/network-traffic-analysis.pdf',
+    file: './projects/network-traffic-analysis.pdf',
+    rawFile: './projects/network-traffic-analysis.pdf',
   },
   'incident-journal': {
     title: "Incident Handler's Journal",
-    file: '/cybersecurity-portfolio/projects/incident-handlers-journal.pdf',
-    rawFile: '/projects/incident-handlers-journal.pdf',
+    file: './projects/incident-handlers-journal.pdf',
+    rawFile: './projects/incident-handlers-journal.pdf',
   },
 };
 
